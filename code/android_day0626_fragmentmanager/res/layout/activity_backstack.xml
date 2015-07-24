@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+		>
+
+	<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			>
+		<!--点击按钮跳转到相应界面并记录相应操作记录到回退栈,点击Status则不记录，并且从该界面直接跳到登录界面-->
+		<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Login"
+				android:onClick="login_onclick"
+				/>
+
+		<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Register"
+				android:onClick="register_onclick"
+				/>
+
+		<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Status"
+				android:onClick="status_onclick"
+				/>
+	</LinearLayout>
+
+	<FrameLayout
+			android:id="@+id/register_container"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			></FrameLayout>
+
+</LinearLayout>

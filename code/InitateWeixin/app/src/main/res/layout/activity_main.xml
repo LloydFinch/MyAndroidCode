@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="5dp"
+              tools:context=".MainActivity"
+              android:orientation="vertical"
+		>
+
+	<ListView
+			android:id="@+id/list_content"
+			android:layout_width="match_parent"
+			android:layout_height="450dp"
+			android:transcriptMode="alwaysScroll"
+			>
+	</ListView>
+
+	<LinearLayout
+			android:id="@+id/linear_me"
+			android:layout_width="match_parent"
+			android:layout_height="60dp"
+			android:orientation="horizontal"
+			android:background="@drawable/talk_bar"
+			android:layout_gravity="bottom"
+			>
+
+		<Button
+				android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:layout_marginLeft="5dp"
+				android:layout_marginTop="12dp"
+				android:background="#00000000"
+				android:onClick="btnSound_onclick"
+				/>
+
+		<EditText
+				android:id="@+id/txt_message"
+				android:layout_width="220dp"
+				android:layout_height="40dp"
+				android:layout_marginLeft="15dp"
+				android:layout_marginTop="15dp"
+				/>
+
+		<Button
+				android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:layout_marginLeft="19dp"
+				android:layout_marginTop="12dp"
+				android:background="#00000000"
+				android:onClick="btnFace_onclick"
+				/>
+
+		<Button
+				android:layout_width="30dp"
+				android:layout_height="30dp"
+				android:layout_marginLeft="11dp"
+				android:layout_marginTop="12dp"
+				android:background="#00000000"
+				android:onClick="btnSend_onclick"
+				/>
+	</LinearLayout>
+
+</LinearLayout>

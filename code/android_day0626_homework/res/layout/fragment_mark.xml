@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+		>
+
+	<com.example.android_day0626_homework.MyView.MarqueeTextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="您正在浏览的是由VernonWang设计的生活小助手的书签界面，此界面由Fragment加Radiobutton进行跳转，内部由Listview组成，点击每一项可查看详情，此栏为自定义TextView实现的跑马灯效果，谢谢浏览!"
+			android:ellipsize="marquee"
+			android:singleLine="true"
+			android:scrollHorizontally="true"
+			android:background="#ff242422"
+			android:marqueeRepeatLimit="marquee_forever"
+			/>
+
+	<ListView
+			android:background="#bb3a181b"
+			android:id="@+id/listview_mark"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			></ListView>
+
+</LinearLayout>

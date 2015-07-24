@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+		>
+
+	<fragment
+			android:id="@+id/fragment_my"
+			class="com.example.android_day0625_homework.MyFragment"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			tools:layout="@layout/fragment_listview"
+			/>
+
+</LinearLayout>
+

@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.venn.phoneadapter.app.fragments.ContentFragment"
+		>
+	
+	<!-- TODO: Update blank fragment layout -->
+	<TextView
+			android:id="@+id/title_news"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/hello_blank_fragment"
+			android:textSize="30sp"
+			android:gravity="center"
+			/>
+
+	<TextView
+			android:id="@+id/content_news"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:textSize="20sp"
+			android:text="@string/hello_blank_fragment"
+			android:gravity="center"
+			/>
+</LinearLayout>

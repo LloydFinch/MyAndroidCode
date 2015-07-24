@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+		>
+
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			>
+
+		<RadioGroup
+				android:id="@+id/radiogroup_type"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+			<RadioButton
+					android:id="@+id/radio_type_in"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="收入"
+					/>
+
+			<RadioButton
+					android:id="@+id/radio_type_out"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="支出"
+					/>
+		</RadioGroup>
+
+		<EditText
+				android:id="@+id/txt_category"
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:hint="消费类型"
+				/>
+
+		<EditText
+				android:id="@+id/txt_count"
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:hint="金额数"
+				/>
+
+		<Button
+				android:id="@+id/button_ok"
+
+
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="确定"
+				android:onClick="btnok_onclick"
+				/>
+
+	</LinearLayout>
+
+	<ListView
+			android:id="@+id/list_content"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			>
+	</ListView>
+
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:gravity="center"
+			>
+
+		<Button
+				android:id="@+id/btn_add"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="添加"
+				android:onClick="btnadd_onclick"
+				/>0dp
+
+		<Button
+				android:id="@+id/btn_delete"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="删除"
+				android:layout_marginLeft="80dp"
+				android:onClick="btndelete_onclick"
+				/>
+	</LinearLayout>
+</LinearLayout>
+

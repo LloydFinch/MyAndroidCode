@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+		>
+
+	<TextView
+			android:id="@+id/text_message_content"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="这是短信内容"
+			android:textSize="20sp"
+			android:padding="10sp"
+			/>
+
+	<TextView
+			android:id="@+id/text_message_time"
+			android:layout_below="@id/text_message_content"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="7月1日"
+			android:textSize="15sp"
+			android:gravity="right"
+			android:padding="10sp"
+			/>
+</RelativeLayout>

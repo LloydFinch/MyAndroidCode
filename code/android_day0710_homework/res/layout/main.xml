@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+		>
+
+	<android.support.v4.view.ViewPager
+			android:id="@+id/pager_content"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			>
+	</android.support.v4.view.ViewPager>
+
+	<RadioGroup
+			android:id="@+id/sms_tab_bar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			>
+
+		<RadioButton
+				android:id="@+id/tab_contacts"
+				style="@style/TAB_BAR_STYLE"
+				android:text="联系人"
+				/>
+
+		<RadioButton
+				android:id="@+id/tab_sms"
+				style="@style/TAB_BAR_STYLE"
+				android:text="短信"
+				/>
+
+		<RadioButton
+				android:id="@+id/tab_black"
+				style="@style/TAB_BAR_STYLE"
+				android:text="黑名单"
+				/>
+
+		<RadioButton
+				android:id="@+id/tab_intercept"
+				style="@style/TAB_BAR_STYLE"
+				android:text="拦截短信"
+				/>
+	</RadioGroup>
+</LinearLayout>
+

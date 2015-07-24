@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+		>
+
+
+	<TextView
+			android:id="@+id/text_message"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="发件人"
+			android:textSize="25sp"
+			android:layout_alignBottom="@id/image_photo"
+			android:layout_toLeftOf="@id/image_photo"
+			/>
+	<ImageView
+			android:id="@+id/image_photo"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			android:layout_alignParentRight="true"
+			android:src="@drawable/htl"
+			/>
+</RelativeLayout>

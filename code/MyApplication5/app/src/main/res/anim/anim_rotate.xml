@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!--旋转,所有补间动画都只是调整显示效果,动画过了就还原-->
+
+	<!--fromDegrees:从指定角度开始转,toDegrees:转到多少角度,顺时针为正方向-->
+	<rotate
+			android:duration="500"
+			android:fromDegrees="90"
+			android:toDegrees="180"
+	        android:pivotX="20%p"
+	        android:pivotY="20%p"
+	        android:repeatCount="infinite"
+	        android:repeatMode="reverse"
+	        android:interpolator="@android:interpolator/linear"
+			/>
+</set>

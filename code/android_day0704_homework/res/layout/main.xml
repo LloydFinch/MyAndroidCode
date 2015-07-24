@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+		>
+
+	<FrameLayout
+			android:id="@+id/layout_fragment"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			>
+
+	</FrameLayout>
+
+	<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			>
+
+		<ImageButton
+				android:id="@+id/btn_contacts"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/contacts"
+				android:onClick="btnContacts_onclick"
+				/>
+
+		<ImageButton
+				android:id="@+id/btn_message"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/message"
+				android:layout_marginLeft="40dp"
+				android:onClick="btnMessage_onclick"
+				/>
+	</LinearLayout>
+</LinearLayout>
+

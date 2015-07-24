@@ -1,0 +1,7 @@
+<resources>
+	<string name="app_name">UI美化</string>
+	
+	<string name="hello_world">世界你好</string>
+	<string name="action_settings">设置</string>
+	<string name="change_style">你好</string>
+</resources>

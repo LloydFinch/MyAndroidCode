@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:gravity="center"
+		>
+
+	<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Hello World, MyActivity"
+			/>
+
+	<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="btn_onclick"
+			android:background="#aaa"
+			android:textColor="#000"
+			android:text="显示普通的通知"
+			/>
+	<!-- 复杂的通知，带有数量显示和声音的-->
+	<Button
+			android:layout_marginTop="30dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="btn2_onclick"
+			android:background="#aaa"
+			android:textColor="#000"
+			android:text="显示复杂的通知"
+			/>
+	<!-- 创建不能删掉的通知-->
+	<Button
+			android:layout_marginTop="30dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="btn3_onclick"
+			android:background="#aaa"
+			android:textColor="#000"
+			android:text="不能删除的通知"
+			/>
+
+	<Button
+			android:layout_marginTop="30dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="btn4_onclick"
+			android:background="#aaa"
+			android:textColor="#000"
+			android:text="带有点击的通知"
+			/>
+
+
+</LinearLayout>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+		>
+
+	<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Hello World, MyActivity"
+			/>
+
+	<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="点击跳转"
+			android:onClick="btnDownLoad_onclick"
+			/>
+
+	<EditText
+			android:id="@+id/txt_url"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="请再次输入网址"
+			android:inputType="textUri"
+			/>
+
+	<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="点击下载"
+			android:onClick="btnLoading_onclick"
+			/>
+
+	<ProgressBar
+			android:id="@+id/progress"
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			style="?android:attr/progressBarStyleHorizontal"
+			/>
+</LinearLayout>
+

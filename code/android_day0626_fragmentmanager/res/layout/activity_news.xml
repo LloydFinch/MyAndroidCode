@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+		>
+<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        android:text="Remove"
+        android:onClick="btnR_onclick"
+		/>
+	<!---->
+	<FrameLayout
+			android:id="@+id/news_content"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			></FrameLayout>
+	<!---->
+	<RadioGroup
+			android:id="@+id/news_tab_bar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			>
+
+		<RadioButton
+				android:id="@+id/news_tab_home"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="首页"
+				/>
+
+		<RadioButton
+				android:id="@+id/news_tab_guanzhu"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="关注"
+				/>
+
+		<RadioButton
+				android:id="@+id/news_tab_video"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="视频"
+				/>
+
+		<RadioButton
+				android:id="@+id/news_tab_myself"
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:text="个人"
+				/>
+	</RadioGroup>
+</LinearLayout>

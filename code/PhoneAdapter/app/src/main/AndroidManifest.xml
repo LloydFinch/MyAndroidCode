@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.venn.phoneadapter.app"
+		>
+
+	<!--name:功能名字,不是包名,使用需要查文档,required:表示功能是否是必须的-->
+	<!--<uses-feature-->
+			<!--android:name="android.hardware.camera"-->
+			<!--android:required="true"-->
+			<!--/>-->
+	<!--<uses-feature-->
+			<!--android:name="android.hardware.nfc"-->
+			<!--android:required="true"-->
+			<!--/>-->
+
+	<!--描述手机支持的屏幕类型-->
+	<supports-screens android:anyDensity="true"/>
+
+	<application
+			android:allowBackup="true"
+			android:icon="@mipmap/ic_launcher"
+			android:label="@string/app_name"
+			android:theme="@style/AppTheme"
+			>
+		<activity
+				android:name=".ScreenAdapter"
+				android:label="@string/title_activity_screen_adapter"
+				>
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		<activity
+				android:name=".DetailActivity"
+				android:label="@string/title_activity_detail"
+				>
+		</activity>
+	</application>
+
+</manifest>

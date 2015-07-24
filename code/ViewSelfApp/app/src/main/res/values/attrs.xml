@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!--自定义属性需要下列属性-->
+	<!--自定义的属性集合-->
+	<declare-styleable name="Notepad">
+		<!--自定义属性-->
+		<!--name指定在xml文件中的属性名,fromat制定在xml文件中的值类型-->
+		<attr name="lineColor" format="color"></attr>
+		<attr name="fontColor" format="color"></attr>
+		<attr name="textSize" format="integer"></attr>
+		<attr name="lineWidth" format="dimension"></attr>
+	</declare-styleable>
+</resources>

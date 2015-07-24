@@ -1,0 +1,9 @@
+<resources>
+	<string name="app_name">My Application 5</string>
+	
+	<string name="hello_world">Hello world!</string>
+	<string name="action_settings">Settings</string>
+	<string name="title_activity_fram_drawable">FramDrawableActivity</string>
+	<string name="title_activity_properties">PropertiesActivity</string>
+	<string name="title_activity_public">PublicActivity</string>
+</resources>

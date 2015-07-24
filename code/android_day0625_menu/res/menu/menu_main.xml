@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+		>
+
+	<!--菜单的每一个项目都通过item来显示-->
+	<!--所有的菜单项，ID的命名规则都是以action开头-->
+	<item
+			android:id="@+id/action_search"
+			android:title="搜索"
+			android:onClick="search_onclick"
+			android:icon="@drawable/ic_launcher"
+			/>
+</menu>

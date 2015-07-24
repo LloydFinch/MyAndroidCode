@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+		>
+
+	<FrameLayout
+			android:id="@+id/frame_container"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			>
+	</FrameLayout>
+
+	<ScrollView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:fadingEdge="horizontal"
+			>
+		<RadioGroup
+				android:id="@+id/news_tab"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				>
+
+			<RadioButton
+					android:id="@+id/news_tab_news"
+					style="@style/News_Tab_Style"
+					android:text="新闻"
+					android:padding="5sp"
+					/>
+
+			<RadioButton
+					android:id="@+id/news_tab_read"
+					style="@style/News_Tab_Style"
+					android:text="阅读"
+					android:padding="5sp"
+					/>
+
+			<RadioButton
+					android:id="@+id/news_tab_look"
+					style="@style/News_Tab_Style"
+					android:text="视听"
+					android:padding="5sp"
+					/>
+
+			<RadioButton
+					android:id="@+id/news_tab_discover"
+					style="@style/News_Tab_Style"
+					android:text="发现"
+					android:padding="5sp"
+					/>
+
+			<RadioButton
+					android:id="@+id/news_tab_personal"
+					style="@style/News_Tab_Style"
+					android:text="我"
+					android:padding="5sp"
+					/>
+		</RadioGroup>
+	</ScrollView>
+
+</LinearLayout>
+

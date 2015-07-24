@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+		>
+
+	<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			>
+
+		<com.baidu.mapapi.map.MapView
+				android:id="@+id/map_baidu"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				>
+		</com.baidu.mapapi.map.MapView>
+	</FrameLayout>
+
+
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			>
+
+		<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:text="弹出"
+				android:onClick="btnWindow_onclick"
+				/>
+
+		<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:text="定位"
+				android:onClick="btnLocation_onclick"
+				/>
+		<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="检索"
+		        android:onClick="btnPOI_onclick"
+				/>
+
+	</LinearLayout>
+</LinearLayout>
+

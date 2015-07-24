@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+		>
+
+	<RadioGroup
+			android:id="@+id/news_look_tab"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			>
+
+		<RadioButton
+				android:id="@+id/news_look_tab_video"
+				style="@style/News_Tab_Style"
+				android:text="视频"
+				android:padding="5sp"
+				/>
+
+		<RadioButton
+				android:id="@+id/news_look_tab_radio"
+				style="@style/News_Tab_Style"
+				android:text="电台"
+				/>
+	</RadioGroup>
+
+	<android.support.v4.view.ViewPager
+			android:id="@+id/pager_look"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			/>
+</LinearLayout>

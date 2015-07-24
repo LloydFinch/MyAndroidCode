@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+		>
+
+	<com.example.android_day0626_homework.MyView.CircleImageView
+			android:id="@+id/image_weather"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:contentDescription="tip"
+			android:scaleType="fitXY"
+			android:background="@drawable/radiusborder_imageview"
+			android:src="@drawable/ic_launcher"
+			/>
+
+	<TextView
+			android:id="@+id/info_date"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="right"
+			android:text="星期六 2015-06-27 10:39"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@id/image_weather"
+			/>
+
+	<TextView
+			android:id="@+id/info_weather"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="sunny"
+			android:layout_toRightOf="@id/image_weather"
+			android:layout_alignParentRight="true"
+			android:layout_below="@id/info_date"
+			/>
+</RelativeLayout>

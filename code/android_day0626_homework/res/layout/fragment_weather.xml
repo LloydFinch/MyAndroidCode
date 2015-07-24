@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+		>
+
+	<com.example.android_day0626_homework.MyView.MarqueeTextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="您正在浏览的是由VernonWang设计的生活小助手的天气界面，此界面由Fragment加Radiobutton进行跳转，内部由Spinner加Listview组成....，此栏为自定义TextView实现的跑马灯效果，谢谢浏览!"
+			android:ellipsize="marquee"
+			android:singleLine="true"
+			android:scrollHorizontally="true"
+			android:background="#ff242422"
+			android:marqueeRepeatLimit="marquee_forever"
+			/>
+
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			>
+
+		<Spinner
+				android:id="@+id/province"
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:textAlignment="viewStart"
+				>
+		</Spinner>
+
+		<Spinner
+				android:id="@+id/city"
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:textAlignment="viewStart"
+				>
+		</Spinner>
+
+		<Spinner
+				android:id="@+id/distinct"
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:textAlignment="viewStart"
+				>
+		</Spinner>
+	</LinearLayout>
+
+	<LinearLayout
+			android:id="@+id/l1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:orientation="horizontal"
+			>
+
+		<ListView
+				android:id="@+id/listview_weather"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				>
+		</ListView>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+		>
+
+	<EditText
+			android:id="@+id/txt_edit"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="请输入联系人姓名"
+			/>
+
+	<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="btnadd_onclick"
+			android:text="添加联系人"
+			/>
+
+	<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="删除联系人"
+			android:onClick="btnDelete_onclick"
+			/>
+
+	<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="更新联系人"
+			android:onClick="btnUpdate_onclick"
+			/>
+
+	<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="获取短信"
+			android:onClick="btnGetsms_onclick"
+			/>
+
+</LinearLayout>

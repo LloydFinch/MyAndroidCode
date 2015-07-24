@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.CustomProvider"
+          android:versionCode="1"
+          android:versionName="1.0"
+		>
+
+	<uses-sdk android:minSdkVersion="19"/>
+	<application
+			android:label="@string/app_name"
+			android:icon="@drawable/ic_launcher"
+			>
+		<activity
+				android:name="MyActivity"
+				android:label="@string/app_name"
+				>
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		<!--register ContentProvider, need to assign authority-->
+		<!--authorities = "lower(小写字母)"-->
+		<!--Uri:content://com.example.CustomProvider.students/-->
+		<!--exported = true :assign current app can be visited by other app-->
+		<provider
+				android:exported="true"
+				android:authorities="com.example.CustomProvider.students"
+				android:name=".StudentProvider"
+				/>
+	</application>
+</manifest>

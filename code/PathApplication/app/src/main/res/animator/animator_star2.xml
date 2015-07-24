@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<objectAnimator
+			android:duration="200"
+			android:startOffset="200"
+			android:propertyName="left"
+			android:valueType="intType"
+			android:valueFrom="0"
+			android:valueTo="430"
+			/>
+	<objectAnimator
+			android:duration="200"
+			android:startOffset="200"
+			android:propertyName="top"
+			android:valueType="intType"
+			android:valueFrom="0"
+			android:valueTo="50"
+			/>
+</set>

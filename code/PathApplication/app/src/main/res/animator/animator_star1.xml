@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!--此处应该设置x\y坐标,嵌套set来实现x\y的同时移动-->
+
+	<objectAnimator
+			android:duration="200"
+			android:startOffset="250"
+			android:propertyName="left"
+			android:valueType="intType"
+			android:valueFrom="-500"
+			android:valueTo="0"
+			/>
+	<objectAnimator
+			android:duration="200"
+			android:startOffset="250"
+			android:propertyName="top"
+			android:valueType="intType"
+			android:valueFrom="10"
+			android:valueTo="0"
+			/>
+</set>

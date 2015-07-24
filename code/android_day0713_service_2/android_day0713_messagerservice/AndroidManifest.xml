@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.android_day0713_messagerservice"
+          android:versionCode="1"
+          android:versionName="1.0"
+		>
+
+	<uses-sdk android:minSdkVersion="17"/>
+	<application
+			android:label="@string/app_name"
+			android:icon="@drawable/ic_launcher"
+			>
+		<activity
+				android:name=".ServiceActivity"
+				android:label="@string/app_name"
+				>
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+
+		<service
+				android:name=".messengerservice.MessengerService"
+				android:exported="true"
+				>
+			<!--定义服务启动的隐式意图-->
+			<intent-filter>
+				<action android:name="com.messenger.service.MESSENGER_SERVICE"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</service>
+		<service
+				android:name=".messengerservice.PlayService"
+				android:exported="true"
+				>
+			<intent-filter>
+				<action android:name="com.service.player.PLAY_SERVICE"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+
+			</intent-filter>
+		</service>
+	</application>
+</manifest>

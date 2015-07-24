@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+		>
+
+	<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Hello World, MyActivity"
+			/>
+
+	<EditText
+			android:id="@+id/txt_name"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="名字"
+			/>
+
+	<EditText
+			android:id="@+id/txt_number"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:inputType="number"
+			android:hint="学号"
+			/>
+
+	<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="添加"
+			android:onClick="btnAdd_onclick"
+			/>
+
+	<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="删除"
+			android:onClick="btnDelete_onclick"
+			/>
+
+	<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="更新"
+			android:onClick="btnUpdate_onclick"
+			/>
+</LinearLayout>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                android:oneshot="true"
+		>
+
+	<item
+			android:drawable="@drawable/elec06"
+			android:duration="200"
+			/>
+	<item
+			android:drawable="@drawable/elec05"
+			android:duration="200"
+			/>
+	<item
+			android:drawable="@drawable/elec04"
+			android:duration="200"
+			/>
+	<item
+			android:drawable="@drawable/elec03"
+			android:duration="200"
+			/>
+	<item
+			android:drawable="@drawable/elec02"
+			android:duration="200"
+			/>
+	<item
+			android:drawable="@drawable/elec01"
+			android:duration="200"
+			/>
+</animation-list>

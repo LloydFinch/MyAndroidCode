@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+		>
+
+	<ImageView
+			android:id="@+id/image_message"
+			android:layout_width="80dp"
+			android:layout_height="80dp"
+			android:src="@drawable/contact"
+			/>
+
+	<TextView
+			android:id="@+id/text_sender"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="孙悟空"
+			android:textSize="25sp"
+			android:layout_toRightOf="@id/image_message"
+			android:layout_marginLeft="5dp"
+			android:padding="10sp"
+			/>
+
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/text_sender"
+			android:layout_toRightOf="@id/image_message"
+			android:layout_alignBaseline="@id/image_message"
+			>
+
+		<TextView
+				android:id="@+id/text_message"
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:textSize="20sp"
+				android:text="短信内容"
+				android:padding="5sp"
+				android:layout_height="wrap_content"
+				android:layout_toRightOf="@id/image_message"
+				/>
+
+		<TextView
+				android:id="@+id/text_time"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="7月1日"
+				android:textSize="15sp"
+				android:gravity="right"
+				android:padding="5sp"
+				/>
+	</LinearLayout>
+
+</RelativeLayout>

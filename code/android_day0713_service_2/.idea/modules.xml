@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android_day0713_messageclient/android_day0713_messageclient.iml" filepath="$PROJECT_DIR$/android_day0713_messageclient/android_day0713_messageclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_day0713_messagerservice/android_day0713_messagerservice.iml" filepath="$PROJECT_DIR$/android_day0713_messagerservice/android_day0713_messagerservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/messageclient/messageclient.iml" filepath="$PROJECT_DIR$/messageclient/messageclient.iml" />
+    </modules>
+  </component>
+</project>

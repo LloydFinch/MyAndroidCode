@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+			android:id="@+id/menu_add_black"
+			android:title="添加至黑名单"
+			/>
+	<item
+			android:id="@+id/menu_delete"
+			android:title="删除"
+			/>
+</menu>

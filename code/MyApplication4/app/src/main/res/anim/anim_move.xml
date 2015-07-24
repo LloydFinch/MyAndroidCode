@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!--设置动画,设置动画的持续时间,单位:ms-->
+	<!--控件向下移动100个像素-->
+	<translate
+			android:duration="1000"
+			android:fromXDelta="20"
+			android:toXDelta="500"
+			android:repeatMode="reverse"
+			android:repeatCount="10"
+			/>
+	<!--startOffset表示从多少时间开始-->
+	<alpha
+			android:startOffset="1000"
+			android:duration="1000"
+			android:fromAlpha="1"
+			android:toAlpha="0"
+			/>
+</set>

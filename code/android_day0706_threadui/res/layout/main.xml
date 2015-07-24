@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+		>
+
+	<TextView
+			android:id="@+id/text_time"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Hello World, MyActivity"
+			/>
+	<ProgressBar
+			android:id="@+id/progressbar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+	        style="?android:attr/progressBarStyleHorizontal"
+			android:background="#ddd"
+			/>
+	<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+	        android:onClick="btnStart_onclick"
+	        android:text="开始"
+			/>
+	<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+	        android:text="Random按钮"
+	        android:onClick="btnRandom_onclick"
+			/>
+</LinearLayout>
+

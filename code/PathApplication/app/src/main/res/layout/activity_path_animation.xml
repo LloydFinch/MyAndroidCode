@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".PathAnimation"
+		>
+	
+	<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:foregroundGravity="center"
+			>
+		<Button
+				android:id="@+id/btn_rotate"
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:onClick="btnRotateOnclick"
+				android:layout_marginTop="200dp"
+				android:layout_marginLeft="80dp"
+		        android:background="@mipmap/btn_rotate"
+				/>
+		<Button
+				android:id="@+id/btn_star11"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:layout_marginLeft="310dp"
+				android:layout_marginTop="245dp"
+				android:background="@mipmap/star"
+				android:visibility="invisible"
+				/>
+
+		<Button
+				android:id="@+id/btn_star12"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:layout_marginLeft="290dp"
+				android:layout_marginTop="190dp"
+				android:background="@mipmap/star"
+				android:visibility="invisible"
+				/>
+
+		<Button
+				android:id="@+id/btn_star13"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:layout_marginLeft="255dp"
+				android:layout_marginTop="140dp"
+				android:background="@mipmap/star"
+				android:visibility="invisible"
+				/>
+
+		<Button
+				android:id="@+id/btn_star14"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:layout_marginLeft="210dp"
+				android:layout_marginTop="100dp"
+				android:background="@mipmap/star"
+				android:visibility="invisible"
+				/>
+
+		<Button
+				android:id="@+id/btn_star15"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:layout_marginLeft="155dp"
+				android:layout_marginTop="70dp"
+				android:background="@mipmap/star"
+				android:visibility="invisible"
+				/>
+
+		<Button
+				android:id="@+id/btn_star16"
+				android:layout_width="40dp"
+				android:layout_height="40dp"
+				android:layout_marginLeft="100dp"
+				android:layout_marginTop="50dp"
+				android:background="@mipmap/star"
+				android:visibility="invisible"
+				/>
+	</FrameLayout>
+</RelativeLayout>
